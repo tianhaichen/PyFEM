@@ -1,0 +1,8 @@
+1.加入环境变量，放在文档末尾
+vi ~/.bashrc
+
+export PYTHONPATH="/home/chen/pyfem-1.0"
+alias  pyfem='python /home/chen/pyfem-1.0/PyFEM.py'
+
+2.使生效
+source /.bashrc
